@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 5 - JavaScript</title>
+</head>
+<body>
+
+    <h1>PRÁCTICA N°5 - JavaScript</h1>
+
+    <h2>1. Formas de conectar HTML con JavaScript</h2>
+
+    <p>
+        Existen dos formas principales de conectar HTML con JavaScript:
+    </p>
+
+    <h3>a) JavaScript interno</h3>
+
+    <p>
+        Consiste en escribir el código JavaScript dentro del mismo archivo HTML
+        utilizando la etiqueta script.
+    </p>
+
+    <pre>
+&lt;script&gt;
+    console.log("Hola Mundo");
+&lt;/script&gt;
+    </pre>
+
+    <h3>b) JavaScript externo</h3>
+
+    <p>
+        Consiste en conectar un archivo .js externo mediante la etiqueta script
+        usando el atributo src.
+    </p>
+
+    <pre>
+&lt;script src="script.js"&gt;&lt;/script&gt;
+    </pre>
+
+    <hr>
+
+    <h2>2. Cómo visualizar resultados en la consola</h2>
+
+    <p>
+        Pasos para visualizar resultados de JavaScript en la consola:
+    </p>
+
+    <ol>
+        <li>Abrir el navegador.</li>
+        <li>Ingresar a la página HTML.</li>
+        <li>Presionar F12 o clic derecho → Inspeccionar.</li>
+        <li>Ir a la pestaña Consola (Console).</li>
+        <li>Utilizar console.log() en JavaScript para mostrar resultados.</li>
+    </ol>
+
+    <pre>
+console.log("Hola desde JavaScript");
+    </pre>
+
+    <hr>
+
+    <h2>3. Variables en JavaScript</h2>
+
+    <p>
+        Las variables son espacios de memoria que permiten almacenar datos.
+    </p>
+
+    <h3>var</h3>
+
+    <p>
+        Permite declarar variables, pero actualmente ya no se recomienda
+        porque puede generar errores debido a su alcance.
+    </p>
+
+    <pre>
+var nombre = "vivi";
+    </pre>
+
+    <h3>let</h3>
+
+    <p>
+        Permite declarar variables que pueden cambiar su valor.
+    </p>
+
+    <pre>
+let edad = 19;
+edad = 20;
+    </pre>
+
+    <h3>const</h3>
+
+    <p>
+        Se utiliza para declarar variables constantes que no cambian.
+    </p>
+
+    <pre>
+const pi = 3.1416;
+    </pre>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
